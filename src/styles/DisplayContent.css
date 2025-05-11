@@ -1,0 +1,43 @@
+
+.display-content {
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #585656; /* 👈 Dark grey background (change if you want lighter) */
+    border-radius: 8px;         /* Rounded corners for better look */
+    color: #e0e0e0;
+    font-size: 1rem;
+    line-height: 1.7;
+ }  
+  .display-content ul,
+  .display-content ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .display-content li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .display-content a {
+    color: #4dabf7; /* Soft blue for links */
+    word-break: break-all;
+    text-decoration: underline;
+  }
+  
+  .display-content pre,
+  .display-content code {
+    background-color: #2e2e2e;
+    padding: 0.5rem;
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    display: block;
+    margin: 1rem 0;
+    overflow-x: auto;
+  }
+  
+  .display-content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 8px;
+  }
